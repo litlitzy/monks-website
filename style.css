@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Section-Hero*/
+
 section.Hero-LP{
     display: flex;
     width: 100%;
@@ -126,6 +128,8 @@ section.Hero-LP{
     height: 100px;
 }
 
+/*Section-Products*/
+
 section.products{
     display: flex;
     flex-direction: column;
@@ -185,7 +189,7 @@ section.products{
     transform: scale(1.1);
 }
 .products:hover .cardbox {
-    filter: blur(2px) grayscale(100%) ;
+    filter:grayscale(100%) ;
 }
 .products:hover .cardbox:hover {
     filter: none;
@@ -210,6 +214,8 @@ section.products{
 a{
     text-decoration: none;
 }
+
+/*Section-simple-gallery*/
 
 section.simple-gallery{
     display: flex;
@@ -265,6 +271,9 @@ section.simple-gallery{
 .secondary-pics img:hover {
     transform: scale(1.1); 
 }
+
+/* Section-app-section*/
+
 section.app-section{
     background-color:rgba(234, 232, 228, 1);
     display: flex;
@@ -311,6 +320,9 @@ section.app-section{
     justify-content: right;
     gap: 8px;
 }
+
+/*Section-products2*/
+
 section.products2{
     background-color: rgba(234, 232, 228, 1);
     width: 100%;
@@ -340,6 +352,7 @@ section.products2{
 }
 .button{
     display: flex;
+    color: rgb(84, 74, 85);
     padding: 8px 40px 8px 40px;
     gap: 10px;
     border: 1px solid;
@@ -358,6 +371,9 @@ section.products2{
     background-color: rgb(158, 144, 173);
     color: white;
 }
+
+/*Section-card-section*/
+
 section.card-section{
     background-color: rgba(234, 232, 228, 1);
     width:100%;
@@ -424,6 +440,8 @@ section.card-section{
 }
 .button-card{
     display: flex;
+    flex-direction: column;
+    color: rgb(84, 74, 85);
     text-decoration:none;
     background-color: rgba(223, 187, 254, 1);
     font-family: 'Roboto', sans-serif;
@@ -448,6 +466,9 @@ section.card-section{
 .card3:hover{
     transform: scale(1.1);
 }
+
+/*Section-forms-box*/
+
 section.forms-box{
     display: flex;
     justify-content: center; 
@@ -477,8 +498,10 @@ justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
 .text-box{
+    border-top:40px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     width: auto;
     height: 128px;
     padding:24px ;
@@ -496,7 +519,7 @@ justify-content: center;
 }
 .text-box h3{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 18.85px;
 }
 .form-fields {
@@ -505,15 +528,15 @@ justify-content: center;
     gap: 18px; 
     justify-content: center;
     align-items: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 .inputs{
     display: flex;
-    flex-direction: row;
-    gap: 16px; /* Espaço entre os inputs na mesma linha */
+    gap: 16px; 
     justify-content: center;
-    width: 100%; /* Largura padrão para os inputs */
-    height: 42px; /* Altura dos inputs */
-    padding: 8px;
+    width: 100%; 
+    height: 100%;
     border-radius: 4px;
     font-size: 16px;
     padding-top: 6px;
@@ -523,13 +546,12 @@ justify-content: center;
 }
 .foms-input{
     width:392.73px;
-    height: 42px; 
-    padding: 8px;
+    height: 100%; 
     border-radius: 8px;
     font-size: 16px;
-    padding-top: 6px;
+    padding-top: 10px;
     padding-right: 10px;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
     padding-left: 10px;
     color:black ;
     border-color: rgba(255, 255, 255, 1);
@@ -619,6 +641,9 @@ justify-content: center;
     transform: scale(1.1);
     border-radius: 20px;
 }
+
+/*Section-retangle*/
+
 section.retangle{
     display: flex;
     align-items: center;
@@ -634,6 +659,8 @@ section.retangle{
     height: 1px;
     background: rgba(223, 187, 254, 1);
 }
+
+/*Section-footer*/
 .footer{
     display: flex;
     flex-direction: column;
