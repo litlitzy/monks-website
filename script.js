@@ -1,4 +1,4 @@
-// Function to generate a random number between 1 and 10
+// generate a random number between 1 and 10
 function generateRandomNumber() {
     return Math.floor(Math.random() * 10) + 1;
 }
